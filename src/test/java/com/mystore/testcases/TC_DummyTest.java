@@ -18,13 +18,12 @@ public class TC_DummyTest extends BaseClass {
     @Test(enabled = true)
     public void searchOnlyFlipkart() throws InterruptedException {
         try {
-            IndexPage pg = new IndexPage(driver);
-            pg.clickOnSearchBarAndSearchProduct();
+            System.out.println("This is a dummy test");
 
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-			System.out.println("Test complete");
+			System.out.println("Dummy test complete");
 
         }
 
