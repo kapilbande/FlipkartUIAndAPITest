@@ -7,7 +7,7 @@
 	</listeners>
 	<test name="S2">
 		<classes>
-			<class name="com.mystore.testcases.TC_DummyTest" />
+			<class name="com.mystore.testcases.TC_IndexPageTest" />
 		</classes>
 	</test>
 </suite> <!-- Suite -->
