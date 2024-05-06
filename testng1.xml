@@ -5,14 +5,9 @@
 		<listener
 			class-name="com.mystore.utilities.ExtentListenerClass"></listener>
 	</listeners>
-	<test name="S1">
+	<test name="Test">
 		<classes>
 			<class name="com.mystore.testcases.TC_IndexPageTest" />
 		</classes>
 	</test> <!-- Test -->
-	<test name="S2">
-		<classes>
-			<class name="com.mystore.testcases.TC_DummyTest" />
-		</classes>
-	</test>
 </suite> <!-- Suite -->
