@@ -1,0 +1,6 @@
+com\mystore\testcases\TC_MyAccountPageTest.class
+com\mystore\utilities\ReadExcelFile.class
+com\mystore\utilities\ReadConfig.class
+com\mystore\pageobject\IndexPage.class
+com\mystore\testcases\BaseClass.class
+com\mystore\utilities\ExtentListenerClass.class
