@@ -14,10 +14,21 @@ pipeline {
             }
         }
         stage('Test') {
-            steps {
-                bat script: 'mvn test'
-            }
-        }
+	    parallel {
+		stage('Test Suite 1') {
+
+            	steps {
+                bat script: 'mvn test -DsuiteXmlFile=testng.xml'
+           	      }
+        	}
+		stage('Test Suite 2') {
+
+            	steps {
+                bat script: 'mvn test -DsuiteXmlFile=testng1.xml'
+           	      }
+        	}
+			}
+			}
         stage('Release') {
             steps {
                 echo 'Release tasks'
